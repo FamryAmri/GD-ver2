@@ -273,9 +273,7 @@ if($levelString != "" AND $levelName != ""){
 			$states = $levelID;
 			} else {
 				$states = "*";
-				}
-			file_put_contents ("levelID", $states);
-	echo $levelID;
+				
 }else{
 	echo -1;
 }
