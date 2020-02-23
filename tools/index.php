@@ -1,5 +1,5 @@
 <?php 
-include dirname (__FILE__)."/../config/host.php";
+include dirname (__FILE__)."/../config/connection.php";
 function listdir($dir){
 	$dirstring = "";
 	$files = scandir($dir);
