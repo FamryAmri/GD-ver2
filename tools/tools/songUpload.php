@@ -56,7 +56,7 @@
 ?><hr>
       <form action ="" method = "POST" id="uploadMusic" enctype = "multipart/form-data">
          <input type = "file" name = "file" />
-         <input type = "submit" value="Upload" onclick="upload()"  class="btn btn-info"/><p id="msg"></p>
+         <input type = "submit" value="Upload" onclick="upload()"><p id="msg"></p>
          <script>
          	function upload (){
          	document.getElementId ("msg").innerHTML("<img src='https://cdn.lowgif.com/small/ff8280aafe27319d-ajax-loading-gif-transparent-background-2-gif-images.gif'></img>Uploading...");
