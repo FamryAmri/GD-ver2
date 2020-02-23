@@ -5,12 +5,12 @@
 # 0 = to turn off
 $isDB = "0";
 $server = "localhost";
-$users = "db-user27157";
-$pass = "qazwsx09";
-$dbname = "db-user27157";
+$users = "root";
+$pass = "";
+$dbname = "gdps";
 
 //Must Input in to Your GDPS Host like this ( no need http:// and https://)
-$host = "allagdms.macdj.eu/database";
+$host = "boomlings.com/database";
 
 //On = SaveData on this server (You also can use "1")
 //Off = SaveData on that server (You also can use "0")
