@@ -1,18 +1,18 @@
 <?php
 	include "../../incl/lib/connection.php";
-	$host = explode ("/", $host)[0];
 	$status = "Idle";
 	$file_name = "-";
 	$file_type = "-";
 	$size = "0.00";
 	$rename = "-";
     $adsid = "-";
+$host = $_SERVER['HTTP_HOST']. $_SERVER['REQUEST_URI'];
    if(isset($_FILES['file'])){
       $file_name = $_FILES['file']['name'];
       $file_size = $_FILES['file']['size'];
       $file_tmp = $_FILES['file']['tmp_name'];
       $file_type = $_FILES['file']['type'];
-      $tmp = explode ('.', $file_name);
+      $tmp= explode ('.', $file_name);
       $file_ext=strtolower(end($tmp));
       $file_realname = str_replace (".mp3", "", basename($file_name));
       $size = round($file_size / 1024 / 1024, 2);
