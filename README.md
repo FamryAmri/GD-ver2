@@ -12,5 +12,9 @@ but you must have an account of <a href="https://ngrok.com">NGROK</a>
 and get the forwarding link but makesure your internet or WiFi must
 be high speed and also don't use VPN
 
+## Credits
+For Cvolton because he made the gdps script
+BTW Sorry... :(
+
 ## Toturial for android
 <code>coming soon </code>
